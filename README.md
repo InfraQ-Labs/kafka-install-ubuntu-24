@@ -2,13 +2,14 @@
 Install Apache Kafka on Ubuntu 26.04 using KRaft mode (Kafka 4.x without ZooKeeper) and legacy ZooKeeper setup (Kafka 3.x). Complete step-by-step DevOps guide with scripts, testing, and production configuration.
 
 # 🚀 Apache Kafka Installation on Ubuntu 26.04 | KRaft (Kafka 4.x) + ZooKeeper (Kafka 3.x)
-
 [![Kafka Docs](https://img.shields.io/badge/docs-apache%20kafka-blue)](https://kafka.apache.org/documentation/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2026.04-orange)]()
 [![Kafka](https://img.shields.io/badge/Kafka-4.x%20%7C%203.x-black)]()
 [![Setup](https://img.shields.io/badge/setup-automated-success)]()
 [![Maintained](https://img.shields.io/badge/status-maintained-brightgreen)]()
+
+[![Kafka Docs](https://github.com/InfraQ-Labs/kafka-install-ubuntu-26/blob/main/assets/kafka-installation-architecture-ubuntu-26.png/)]()
 
 ---
 
