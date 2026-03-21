@@ -1,9 +1,9 @@
 
-# 🚀 Kafka 4.x Installation on Ubuntu 24.04 (KRaft Mode - No ZooKeeper)
+# 🚀 Kafka 4.x Installation on Ubuntu 26.04 (KRaft Mode - No ZooKeeper)
 
 ## 📚 Overview
 
-This guide provides a **step-by-step installation of Apache Kafka 4.x on Ubuntu 24.04 using KRaft mode**, which eliminates the need for ZooKeeper.
+This guide provides a **step-by-step installation of Apache Kafka 4.x on Ubuntu 26.04 using KRaft mode**, which eliminates the need for ZooKeeper.
 
 KRaft (Kafka Raft Metadata mode) is the **modern architecture** for Kafka, simplifying deployment and improving scalability.
 
@@ -11,7 +11,7 @@ KRaft (Kafka Raft Metadata mode) is the **modern architecture** for Kafka, simpl
 
 ## ⚙️ Prerequisites
 
-- Ubuntu Server 24.04
+- Ubuntu Server 26.04
 - Minimum 2 CPU / 4GB RAM (8GB recommended)
 - Root or sudo access
 - Open port: `9092`
