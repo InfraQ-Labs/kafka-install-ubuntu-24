@@ -2,7 +2,7 @@
 
 set -e
 
-echo "🚀 Installing Kafka 4.x (KRaft Mode) on Ubuntu 24.04"
+echo "🚀 Installing Kafka 4.x (KRaft Mode) on Ubuntu 26.04"
 
 ########################################
 # 🔧 Install Dependencies
@@ -14,7 +14,7 @@ sudo apt install -y curl wget net-tools openjdk-21-jdk
 if ! command -v pm2 &> /dev/null
 then
     echo "📦 Installing Node.js & PM2..."
-    curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+    curl -fsSL https://deb.nodesource.com/setup_26.x | sudo -E bash -
     sudo apt install -y nodejs
     sudo npm install -g pm2
 fi
