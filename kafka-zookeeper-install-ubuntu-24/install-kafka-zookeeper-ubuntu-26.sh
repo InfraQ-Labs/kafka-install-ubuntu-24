@@ -2,7 +2,7 @@
 
 set -e
 
-echo "🚀 Installing Kafka 3.x (ZooKeeper + Source Build) on Ubuntu 24.04"
+echo "🚀 Installing Kafka 3.x (ZooKeeper + Source Build) on Ubuntu 26.04"
 
 ########################################
 # 🔧 Install Dependencies
