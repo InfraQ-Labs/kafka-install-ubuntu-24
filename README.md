@@ -1,11 +1,11 @@
-# kafka-install-ubuntu-24
-Install Apache Kafka on Ubuntu 24.04 using KRaft mode (Kafka 4.x without ZooKeeper) and legacy ZooKeeper setup (Kafka 3.x). Complete step-by-step DevOps guide with scripts, testing, and production configuration.
+# kafka-install-ubuntu-26
+Install Apache Kafka on Ubuntu 26.04 using KRaft mode (Kafka 4.x without ZooKeeper) and legacy ZooKeeper setup (Kafka 3.x). Complete step-by-step DevOps guide with scripts, testing, and production configuration.
 
-# 🚀 Apache Kafka Installation on Ubuntu 24.04 | KRaft (Kafka 4.x) + ZooKeeper (Kafka 3.x)
+# 🚀 Apache Kafka Installation on Ubuntu 26.04 | KRaft (Kafka 4.x) + ZooKeeper (Kafka 3.x)
 
 [![Kafka Docs](https://img.shields.io/badge/docs-apache%20kafka-blue)](https://kafka.apache.org/documentation/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2024.04-orange)]()
+[![Ubuntu](https://img.shields.io/badge/OS-Ubuntu%2026.04-orange)]()
 [![Kafka](https://img.shields.io/badge/Kafka-4.x%20%7C%203.x-black)]()
 [![Setup](https://img.shields.io/badge/setup-automated-success)]()
 [![Maintained](https://img.shields.io/badge/status-maintained-brightgreen)]()
@@ -31,7 +31,7 @@ Install Apache Kafka on Ubuntu 24.04 using KRaft mode (Kafka 4.x without ZooKeep
 
 ## 📚 Overview
 
-This repository provides a **complete step-by-step guide to install Apache Kafka on Ubuntu 24.04**, covering both:
+This repository provides a **complete step-by-step guide to install Apache Kafka on Ubuntu 26.04**, covering both:
 
 - ✅ **Kafka 4.x (KRaft Mode — No ZooKeeper)**
 - ✅ **Kafka 3.x (ZooKeeper-based setup)**
@@ -50,9 +50,9 @@ It includes **automated scripts, manual guides, and production-ready configurati
 ### 🔹 Kafka 4.x (KRaft Mode - Recommended)
 
 ```bash
-cd kafka-kraft-install-ubuntu-24
-chmod +x install-kafka-kraft-ubuntu-24.sh
-./install-kafka-kraft-ubuntu-24.sh
+cd kafka-kraft-install-ubuntu-26
+chmod +x install-kafka-kraft-ubuntu-26.sh
+./install-kafka-kraft-ubuntu-26.sh
 ```
 
 ---
@@ -60,16 +60,16 @@ chmod +x install-kafka-kraft-ubuntu-24.sh
 ### 🔹 Kafka 3.x (ZooKeeper Mode)
 
 ```bash
-cd kafka-zookeeper-install-ubuntu-24
-chmod +x install-kafka-zookeeper-ubuntu-24.sh
-./install-kafka-zookeeper-ubuntu-24.sh
+cd kafka-zookeeper-install-ubuntu-26
+chmod +x install-kafka-zookeeper-ubuntu-26.sh
+./install-kafka-zookeeper-ubuntu-26.sh
 ```
 
 ---
 
 ## ⭐ Why This Repository?
 
-- Optimized for **Ubuntu 24.04 LTS**
+- Optimized for **Ubuntu 26.04 LTS**
 - Covers both **modern (KRaft)** and **legacy (ZooKeeper)** setups
 - Includes **automation scripts + manual guides**
 - Production-ready configuration
@@ -93,13 +93,13 @@ chmod +x install-kafka-zookeeper-ubuntu-24.sh
 
 ### 🔹 Kafka 4.x (KRaft Mode)
 
-👉 **[Install Kafka 4.x (KRaft Mode) on Ubuntu 24.04](./kafka-kraft-install-ubuntu-24/kafka-kraft-install-ubuntu-24.md)**
+👉 **[Install Kafka 4.x (KRaft Mode) on Ubuntu 26.04](./kafka-kraft-install-ubuntu-26/kafka-kraft-install-ubuntu-26.md)**
 
 ---
 
 ### 🔹 Kafka 3.x (ZooKeeper Mode)
 
-👉 **[Install Kafka 3.x with ZooKeeper on Ubuntu 24.04](./kafka-zookeeper-install-ubuntu-24/kafka-zookeeper-install-ubuntu-24.md)**
+👉 **[Install Kafka 3.x with ZooKeeper on Ubuntu 26.04](./kafka-zookeeper-install-ubuntu-26/kafka-zookeeper-install-ubuntu-26.md)**
 
 ---
 
@@ -135,28 +135,28 @@ chmod +x install-kafka-zookeeper-ubuntu-24.sh
 ## 📂 Project Structure
 
 ```
-kafka-install-ubuntu-24/
+kafka-install-ubuntu-26/
 │
 ├── README.md
 ├── LICENSE
 │
-├── kafka-kraft-install-ubuntu-24/
-│   ├── install-kafka-kraft-ubuntu-24.sh
-│   └── kafka-kraft-install-ubuntu-24.md
+├── kafka-kraft-install-ubuntu-26/
+│   ├── install-kafka-kraft-ubuntu-26.sh
+│   └── kafka-kraft-install-ubuntu-26.md
 │
-├── kafka-zookeeper-install-ubuntu-24/
-│   ├── install-kafka-zookeeper-ubuntu-24.sh
-│   └── kafka-zookeeper-install-ubuntu-24.md
+├── kafka-zookeeper-install-ubuntu-26/
+│   ├── install-kafka-zookeeper-ubuntu-26.sh
+│   └── kafka-zookeeper-install-ubuntu-26.md
 │
 └── assets/
-    └── kafka-installation-architecture-ubuntu-24.png
+    └── kafka-installation-architecture-ubuntu-26.png
 ```
 
 ---
 
 ## ⚠️ Important Notes
 
-- Install Java (OpenJDK 17 or 21 recommended)  
+- Install Java (OpenJDK 17 or 21 recommended)  Support Java 25 - I have tested It
 - Ensure port **9092** is open  
 - Use systemd for production deployments  
 - For production:
@@ -174,7 +174,7 @@ MIT License
 
 ## 📈 Keywords
 
-kafka install ubuntu 24.04  
+kafka install ubuntu 26.04  
 apache kafka installation ubuntu  
 kafka kraft install ubuntu  
 kafka without zookeeper  
