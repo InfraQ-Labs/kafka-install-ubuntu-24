@@ -14,7 +14,7 @@ sudo apt install -y curl wget net-tools openjdk-17-jdk git
 if ! command -v pm2 &> /dev/null
 then
     echo "📦 Installing Node.js & PM2..."
-    curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+    curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
     sudo apt install -y nodejs
     sudo npm install -g pm2
 fi
