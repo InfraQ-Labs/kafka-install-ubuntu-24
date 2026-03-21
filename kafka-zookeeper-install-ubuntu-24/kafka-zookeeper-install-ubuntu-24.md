@@ -1,8 +1,8 @@
-# 🚀 Kafka 3.x Installation on Ubuntu 24.04 (ZooKeeper Mode)
+# 🚀 Kafka 3.x Installation on Ubuntu 26.04 (ZooKeeper Mode)
 
 ## 📚 Overview
 
-This guide explains how to **install Apache Kafka 3.x on Ubuntu 24.04 using ZooKeeper**, including:
+This guide explains how to **install Apache Kafka 3.x on Ubuntu 26.04 using ZooKeeper**, including:
 
 - Source build using Gradle  
 - PM2-based process management  
@@ -18,7 +18,7 @@ This setup is useful for:
 
 ## ⚙️ Prerequisites
 
-- Ubuntu 24.04
+- Ubuntu 26.04
 - Minimum 4GB RAM (8GB recommended)
 - Root or sudo access
 - Open ports:
